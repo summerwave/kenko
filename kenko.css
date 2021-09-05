@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  height: 100vh;
+}
+.s1 {
+  display: block;
+  width: 85vw;
+	max-width: 1000px;
+}
+.title {
+  font-size: 7.0rem;
+  font-family: 'Rampart One', cursive;
+}
+.subtitle {
+  font-size: 2.5rem;
+  font-family: 'Sawarabi Gothic', sans-serif;
+	padding-top: 10px;
+}
+.day{
+	font-size: 1.0rem;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	padding-top: 5px;
+}
+.name {
+  font-size: 1.5rem;
+  font-family: 'Sawarabi Gothic', sans-serif;
+	padding-top: 20px;
+}
+.qa {
+  font-size: 7.0rem;
+  font-family: 'Rampart One', cursive;
+	padding-right: 30px;
+	margin-bottom: 15px;
+}
+.q {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxcontainer {
+  font-size: 1.2rem;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  text-align: justify;
+  word-wrap: break-all;
+  overflow-wrap: break-word;
+}
+.color1 {
+  background-color: #034263;
+  color: #ffffff;
+}
+.color2 {
+  background-color: #f24b9e;
+  color: #ffffff;
+}
+.color3 {
+  background-color: #3ba09e;
+}
+.color4 {
+  background-color: #bff7fc;
+}
+.color5 {
+  background-color: #ffffa5;
+}
+
+.daigaku {
+  font-size: 1.5rem;
+  font-family: 'Sawarabi Gothic', sans-serif;
+	padding-top: 20px; 
+}
+ div {text-align: center
+}
